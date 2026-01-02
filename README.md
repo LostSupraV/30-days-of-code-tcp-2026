@@ -15,3 +15,8 @@
 
 ### About Page
 <img width="1900" height="1133" alt="127 0 0 1_3000_Day%201_about html" src="https://github.com/user-attachments/assets/aa7488a1-506d-4f18-bc78-c2a5a70528c8" />
+
+### DAY 02
+
+###Event.html
+<img width="1900" height="1288" alt="127 0 0 1_3000_event html" src="https://github.com/user-attachments/assets/a3ff5f88-999e-4a49-85fc-0deebe658e29" />

@@ -277,5 +277,7 @@ nav h1{
         flex-direction: column;
         height: auto;
         gap: 2em;
+        align-items: center;
     }
+
 }

@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 1.5em;
+}
+
+.navbar ul li{
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75vh
+}
+
+.content{
+    width: 25em;
+    font-size: 1.2em;
+
+}
+
+.content :nth-child(1) span{
+    color: #2196f3;
+}
+
+.content h1 span{
+    color: #e3d;
+}
+
+.btn{
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    background-color: #2196f3;
+    border: none;
+    color: #fff;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #e3d;
+    transition: all 0.3s ease-in-out;
+}
+
+.mt{
+    margin-top: 1.5em;
+}
+
+header{
+    min-height: 100vh;
+}
+
+#skills{
+    margin: 0px 10vw 0px 10vw;
+    min-height: 90vh;
+}
+
+#skills h1{
+    color: #2196f3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#skills ul{
+    margin-top: 1.5em;
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item{
+    list-style-type: none;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    height: 10em;
+    width: 20em;
+}
+
+#skills ul li img{
+    height: 2em;
+    /* margin-top: 1.5em; */
+}
+
+#skills ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#skills ul li:hover{
+    box-shadow: 0px 0px 15px #e3d;
+    transition: all 0.3s ease-in-out;
+}
+
+#projects article h1{
+    color: #2196f3;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.project-item{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px #ccc; */
+    margin: 1.5em;
+    padding: 1.5em;
+    transition: all 0.3s ease-in-out;
+    width: 20em;
+    height: 10em;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.project-item:hover{
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: #fefcfc;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#video{
+    margin: 10vw 10vw 5vh 10vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+#video h1{
+    color: #2196f3;
+}
+
+#video iframe{
+    border: 2px solid black;
+}
+
+blockquote{
+    background-color: #fefcfc;
+    border-left: 10px solid #2196f3;
+    margin: 1.5em 10vw 5vh 10vw;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+footer span{
+    color: #2196f3;
+}
+
+.about{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    min-height: 80vh;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+
+#xp h2{
+    color: #2196f3;
+    text-align: center;
+}
+#xp{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 50vh;
+}
+
+.one ul, .two ul, .three ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 15em;
+    margin-top: 1em;
+}
+
+nav span{
+    color: #2196f3;
+}
+
+nav h1{
+    color: #2196f3;
+}
+
+@media(max-width: 768px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        gap: 2em;
+        margin-top: 5em;
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #skills ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #xp{
+        margin-top: 5em;
+        margin-bottom: 5em;
+        flex-direction: column;
+        height: auto;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .about{
+        flex-direction: column;
+        height: auto;
+        gap: 2em;
+    }
+}

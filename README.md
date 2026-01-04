@@ -31,4 +31,11 @@
 <img width="1900" height="1380" alt="127 0 0 1_3000_about html" src="https://github.com/user-attachments/assets/55b03af3-68da-48e4-a930-d6bd892d884b" />
 <img width="1414" height="3732" alt="127 0 0 1_3000_about html (1)" src="https://github.com/user-attachments/assets/14e3b191-64c8-4703-89de-caa1269c1bb0" />
 
+### DAY 03
 
+### Landing Page
+<img width="1900" height="2639" alt="127 0 0 1_3000_landing html" src="https://github.com/user-attachments/assets/d39ec784-d99a-41a1-bdab-e3187cfdac17" />
+
+### Responsive
+<img width="1360" height="6776" alt="127 0 0 1_3000_landing html (1)" src="https://github.com/user-attachments/assets/a2836705-aa1f-48c3-9446-b1a6777c9d84" />
+### Note : - You have to check all the effects applied yourself

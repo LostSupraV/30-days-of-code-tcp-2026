@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #dbe511;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  height: 4em;
+  /* border-bottom: 2px solid black; */
+}
+
+.branding {
+  font-family: Sansita Swashed;
+  cursor: default;
+}
+
+.item {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  list-style-type: none;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1.2em;
+  font-family: ubuntu;
+}
+
+.item:hover {
+  color: var(--yellow);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 40em;
+  font-family: ubuntu;
+  gap: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+  animation: FadeInBlack;
+  animation-duration: 3s;
+}
+
+h1 span {
+  color: var(--yellow);
+  animation: FadeInYellow;
+  animation-duration: 3s;
+
+}
+
+.hero-btn {
+  background-color: #fff;
+  width: 8.2em;
+  height: 2.3em;
+  border: 2px solid var(--yellow);
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-family: ubuntu;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: var(--yellow);
+  transition: all 0.3s ease-in-out;
+}
+
+.circle {
+  position: absolute;
+  width: 399px;
+  height: 399px;
+  left: 956px;
+  top: 368px;
+  background: linear-gradient(147.83deg, var(--yellow), #accb40 85.3%);
+  border-radius: 200px;
+  position: absolute;
+  top: 10em;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.right .shoe {
+  transition: all 0.3s ease-in-out;
+}
+
+.right:hover .circle {
+  transform: rotateZ(60deg);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0px;
+}
+
+.right:hover .shoe {
+  translate: 40px;
+  transform: rotateZ(-30deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.Login {
+  background-color: #fff;
+  width: 8.2em;
+  height: 2.3em;
+  border: 2px solid black;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.Login:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  width: 8.2em;
+  height: 2.3em;
+  border: 2px solid black;
+}
+
+.features {
+  margin-top: 10em;
+  height: 90vh;
+}
+
+.features h1 {
+  margin-bottom: 1.5em;
+  font-family: ubuntu;
+  text-align: center;
+}
+
+.set {
+  display: flex;
+  gap: 1.2em;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  font-family: sans-serif;
+  cursor: default;
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 18em;
+  height: 20em;
+  border: 2px solid #ccc;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px var(--yellow);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.01);
+}
+
+.card a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+}
+
+.prices {
+  height: 90vh;
+}
+
+.prices h1 {
+  margin-bottom: 1.5em;
+  font-family: ubuntu;
+  text-align: center;
+}
+
+.price-cards {
+  display: flex;
+  /* gap: 1.5em; */
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  font-family: sans-serif;
+  cursor: default;
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 18em;
+  height: 20em;
+  border: 2px solid #ccc;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.price-card:hover {
+  box-shadow: 0px 0px 20px #ccc;
+  transform: scale(1.01);
+  /* border: none; */
+  transition: all 0.3s ease-in-out;
+}
+
+.price-card a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer span {
+  color: var(--yellow);
+}
+
+.small-shoe {
+  display: none;
+}
+
+@media (max-width: 1450px) {
+  .small-shoe {
+    display: initial;
+    width: 40rem;
+  }
+  .shoe {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    margin-top: 1.2em;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+
+@media(max-width:1000px){
+  .cards{
+    flex-direction: column;
+    gap: 1.5em  ;
+  }
+  .features{
+    height: auto;
+
+  }
+  .price-cards{
+    flex-direction: column;
+    gap: 1.5em  ;
+  }
+  .prices{
+    margin-top: 1.5em;
+    height: auto;
+  }
+}
+
+@keyframes FadeInBlack {
+  from{
+    color: #fff;
+  }
+  to{
+    color: #000;
+  }
+}
+
+@keyframes FadeInYellow {
+  from{
+    color: #fff;
+  }
+  to{
+    color: var(--yellow);
+  }
+}

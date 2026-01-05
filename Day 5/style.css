@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.playground {
+  height: 400px;
+  width: 400px;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5em;
+}
+
+.box1 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.box2 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+.box3 {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.box4 {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+.box5 {
+  border: 5px solid black;
+}
+.box6 {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+.box7 {
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+}
+.box8 {
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+.box9 {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+
+.select img {
+  height: 8em;
+}
+
+.x {
+  background-color: #f3f4f6;
+  height: 11em;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.o {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  height: 11em;
+  width: 10em;
+}
+
+.o:hover img {
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.x:hover img {
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.o:hover h4 {
+  transform: translateY(-0.3em);
+  transition: all 0.3s ease-in-out;
+}
+
+.x:hover h4 {
+  transform: translateY(-0.3em);
+  transition: all 0.3s ease-in-out;
+}
+
+.disable {
+    display: none;
+}
+
+.select {
+    display: flex;
+    gap: 2em;
+    height: 10vh;
+    gap: 2em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+.slideLeft {
+    animation: slideLeft 1s ease-in-out forwards;
+}
+
+.slideRight {
+    animation: slideRight 1s ease-in-out forwards;
+}
+
+.choice {
+    display: flex;
+    gap: 2em;
+}
+
+.container h1 {
+    margin-top: 1em;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.result {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .select h2 {
+        text-align: center;
+    }
+    .choice {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.body {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    height: 30em;
+    width: 25em;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 2em;
+    box-shadow: 0px 0px 10px #ccc;
+    display: none;
+}
+
+.input-group {
+    position: relative;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.input-group input {
+    width: 100%;
+  padding: 14px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  background: transparent;
+  transition: 0.3s ease;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  color: #888;
+  font-size: 14px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: 0.3s ease;
+  background: #fff;
+  padding: 1px;
+}
+
+.input-group input:focus,
+.input-group input:valid {
+  border-color: #3b82f6;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -6px;
+  font-size: 12px;
+  color: #3b82f6;
+}
+
+.start-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

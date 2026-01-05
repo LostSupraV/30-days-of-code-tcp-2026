@@ -39,3 +39,16 @@
 ### Responsive
 <img width="1360" height="6776" alt="127 0 0 1_3000_landing html (1)" src="https://github.com/user-attachments/assets/a2836705-aa1f-48c3-9446-b1a6777c9d84" />
 ### Note : - You have to check all the effects applied yourself
+
+### DAY 03
+
+### choice 
+<img width="1900" height="725" alt="127 0 0 1_3000_index html (2)" src="https://github.com/user-attachments/assets/f4840f90-f207-4519-adb3-e2e5d35cd752" />
+
+### game
+<img width="1900" height="765" alt="127 0 0 1_3000_index html (3)" src="https://github.com/user-attachments/assets/142d3ee6-33f2-45f9-acb0-00cb6f682bd3" />
+
+### responsive
+<img width="1900" height="765" alt="127 0 0 1_3000_index html (3)" src="https://github.com/user-attachments/assets/f223721c-b3ed-4798-ac7b-abdf254ef72f" />
+
+

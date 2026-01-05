@@ -51,4 +51,6 @@
 ### responsive
 <img width="1900" height="765" alt="127 0 0 1_3000_index html (3)" src="https://github.com/user-attachments/assets/f223721c-b3ed-4798-ac7b-abdf254ef72f" />
 
+Live on https://rishitictactoe.netlify.app/
+
 

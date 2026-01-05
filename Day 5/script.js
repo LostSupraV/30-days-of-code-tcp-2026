@@ -90,7 +90,7 @@ x.onclick = () => {
 };
 
 o.onclick = () => {
-  choiceList.classList.toggle("disable");
+  choiceList.style.display = "none";
   playground.classList.toggle("disable");
   turn = 0;
   boxes.forEach((box, key) => {
@@ -134,3 +134,4 @@ o.onclick = () => {
     };
   });
 };
+

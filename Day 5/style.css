@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.playground{
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+}
+
+.box1{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box2{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+.box3{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box4{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.box5{
+    border: 5px solid black;
+}
+.box6{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.box7{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+.box8{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+.box9{
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.select{
+    display: flex;
+    gap: 2em;
+    height: 10vh;
+    gap: 2em;
+}
+
+.select img{
+    height: 8em;
+}
+
+.x{
+    background-color: #f3f4f6;
+    height: 11em;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.o{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    height: 11em;
+    width: 10em;
+}
+
+.o:hover img{
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.x:hover img{
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.o:hover h4{
+    transform: translateY(-0.3em);
+    transition: all 0.3s ease-in-out;
+}
+
+.x:hover h4{
+    transform: translateY(-0.3em);
+    transition: all 0.3s ease-in-out;
+}
+
+.disable{
+    display: none;
+}
+
+.select{
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+.choice{
+    display: flex;
+    gap: 2em;
+}
+
+.container h1{
+    margin-top: 2em;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.result{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+@media (max-width:600px) {
+    .select h2{
+        text-align: center;
+    }
+    .choice{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

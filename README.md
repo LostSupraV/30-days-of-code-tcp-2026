@@ -58,4 +58,7 @@ Live on https://rishitictactoe.netlify.app/
 ### Time Complexity
 <img width="1920" height="1080" alt="Screenshot 2026-01-06 232440" src="https://github.com/user-attachments/assets/ad40e46e-8151-48c0-949c-6cf1f1bcf244" />
 
+### Day 07
 
+### Array Question
+<img width="1920" height="869" alt="leetcode com_problems_find-the-sum-of-encrypted-integers_description_" src="https://github.com/user-attachments/assets/3029cfac-0105-456c-8dba-c3410f407892" />

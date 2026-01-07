@@ -1,0 +1,12 @@
+You are given an integer array nums containing positive integers. We define a function encrypt such that encrypt(x) replaces every digit in x with the largest digit in x. For example, encrypt(523) = 555 and encrypt(213) = 333.
+
+class Solution:
+    def sumOfEncryptedInt(self, nums: List[int]) -> int:
+        def encrypt(x):
+            return max(str(x))*len(str(x))
+
+        sum = 0
+
+        for num in nums:
+            sum += int(encrypt(num))
+        return sum

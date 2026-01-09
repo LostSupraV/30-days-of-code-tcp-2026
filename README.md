@@ -63,8 +63,9 @@ Live on https://rishitictactoe.netlify.app/
 ### Array Question
 <img width="1920" height="869" alt="leetcode com_problems_find-the-sum-of-encrypted-integers_description_" src="https://github.com/user-attachments/assets/3029cfac-0105-456c-8dba-c3410f407892" />
 
-### Day 07
+### Day 08
 
 <img width="1920" height="869" alt="leetcode com_problems_longest-consecutive-sequence_" src="https://github.com/user-attachments/assets/3ac8a4d4-feba-4c88-a056-dfaa5be2fb88" />
 
-
+### Day 09
+<img width="1920" height="869" alt="leetcode com_problems_largest-odd-number-in-string_" src="https://github.com/user-attachments/assets/e6c2e085-599a-406b-8798-9b4c89741640" />
